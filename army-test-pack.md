@@ -131,3 +131,58 @@ Checked against the big existing channels in this niche — none of these copies
 - Every number on screen was verified before burning it in (bases listed per Short).
 - Neutral, factual framing — no country-vs-country bait, no graphic content.
 - No view or earnings expectations are attached to this test batch; it exists so the format can be judged on the actual files.
+
+
+---
+
+# V2 — English voiceover + boxed captions + edit pass (6 Nov 2026)
+
+**⬆️ V2 SUPERSEDES V1.** For all 5 Shorts, preview/use the `-vo.mp4` files below, not the v1 files. Same footage, same music beds, same opening hooks as v1 — now with English documentary narration, burned-in captions, and cuts re-timed to the narration. Nothing has been uploaded anywhere; these are preview files only.
+
+**Production notes (all 5):**
+- **Voice:** Piper TTS, `en_US-ryan-high` (deep male US voice), slight slow-down (length scale 1.08), ~0.35s pause between sentences. Light reverb + loudnorm on the voice; music bed sidechain-ducked under the narration; final mixes measure ≈ −15.1 to −15.3 LUFS integrated.
+- **Captions:** burned in, bold white on semi-transparent black boxes, bottom third of the frame — clear of the top hook text (hook runs 0–3.4s; captions start with the voice at 0.3s in the bottom band). Caption text is generated from the same script and sentence timings as the voice, word-for-word.
+- **Edit pass:** one visual segment per narration sentence, so every cut lands on a story beat — no dead frames. Punch-in zooms on key moments where the source resolution allows: S1 rifle-inspection close-up, S2 F-35B deck close-up, S3 surf-training close-up, S4 Abrams firing, S5 flight-deck close-up. Same contrast/colour grade as v1; short fades only at the very end.
+
+**Verification:** every final file was checked end-to-end — duration under 60s, audio present, and a Whisper ASR round-trip of the finished mix matched the script (key terms confirmed intelligible: F-35B, Arlington, USS, Abrams, electromagnetic). Two fixes came out of that check: Short 3's "President John F. Kennedy" was shortened to "President Kennedy" after the ASR pass flagged the longer name as unclear (fact unchanged), and Short 4's fuel-thirst sentence was proven present via the clean voice track after the mixed-audio ASR skipped it (music masking in the ASR, not a missing line — levels measured equal to neighbouring lines).
+
+## Short 1 (v2) — Tomb Guard
+**File:** `army-short-1-tomb-guard-precision-vo.mp4` · **Duration:** 33.6s · 89 words
+**Final narration script (verbatim):**
+> For almost ninety years, through blizzards and hurricanes, a lone soldier has guarded this tomb without pause. This is the Tomb of the Unknown Soldier, at Arlington National Cemetery. The sentinel takes twenty-one steps across the mat, then faces the tomb for twenty-one seconds. Twenty-one: the highest salute a soldier can give, the twenty-one gun salute. The watch has continued since nineteen thirty-seven, not for one missed minute, day or night. Fewer than seven hundred soldiers have ever earned their badge: one of the rarest in the American military.
+
+**Verified claims:** 24/7 guard since 2 Jul 1937 (Arlington/Society of the Honor Guard); 21 steps + 21-second facing (Arlington official); 21 = homage to the 21-gun salute (Arlington official); Tomb Guard badge fewer than 700 awarded since 1958, among the rarest US Army badges (Society of the Honor Guard / Army).
+
+## Short 2 (v2) — F-35B
+**File:** `army-short-2-f35b-carrier-jets-vo.mp4` · **Duration:** 33.4s · 91 words
+**Final narration script (verbatim):**
+> This fighter jet can stop in mid-air, and land straight down, like a helicopter. It is the F-35B Lightning II, the short take-off and vertical landing version of America's stealth fighter. A lift fan behind the cockpit, and a swiveling engine nozzle, let it hover above a ship's deck. Each jet costs over one hundred million dollars to buy. It belongs to the most expensive weapons program in history, worth over two trillion dollars across its lifetime. No runway, no problem: this jet brings the airfield with it, anywhere on Earth.
+
+**Verified claims:** STOVL hover via lift fan + swiveling nozzle (standard F-35B design references); >$100M per F-35B (JPO lots 15–17 ≈ $109M, from v1 pack); most expensive weapons program in history, lifetime cost >$2 trillion (GAO, 2024).
+
+## Short 3 (v2) — Navy SEALs / Hell Week
+**File:** `army-short-3-seal-training-vo.mp4` · **Duration:** 30.0s · 89 words
+**Final narration script (verbatim):**
+> Five and a half days. Four hours of sleep. This is Hell Week. It is the breaking point of the training that creates America's Navy SEALs. The SEALs were born in nineteen sixty-two, created under President Kennedy. For five and a half days, candidates run, swim, and crawl through freezing surf, almost without rest. To quit, a man only has to ring a brass bell, and walk away from his dream forever. Only about one in four who start are still standing at the end. The rest went home.
+
+**Verified claims:** SEALs commissioned Jan 1962 under President Kennedy (U.S. Naval Institute); Hell Week 5.5 days with ~4 hours of sleep total (Navy/BUDS references); quitting by ringing a brass bell (standard BUD/S practice); roughly 1 in 4 candidates completes (commonly cited BUD/S attrition).
+
+## Short 4 (v2) — M1 Abrams
+**File:** `army-short-4-tank-jet-engine-vo.mp4` · **Duration:** 32.0s · 95 words
+**Final narration script (verbatim):**
+> This tank does not run on diesel. It runs on a jet engine. The M1 Abrams entered service in nineteen eighty, and it is still America's front-line battle tank. Its gas turbine makes fifteen hundred horsepower, the same technology that powers jet aircraft. The price of that power is thirst: it can burn up to three gallons of fuel in a single mile. In the nineteen ninety-one Gulf War, nine Abrams were lost, and not one of them fell to an enemy tank. More than forty years later, the jet-powered Abrams still leads the charge.
+
+**Verified claims:** entered service 1980 (Wikipedia/U.S. Army); AGT1500 gas turbine, 1,500 hp; fuel use up to ~3 gallons per mile at the heavy end (commonly cited consumption figures); Desert Storm: 9 Abrams lost, none destroyed by enemy tank fire (Wikipedia, M1 Abrams). **Note:** the stronger viral claim "never destroyed by enemy fire" was deliberately NOT used — it is not accurate as stated; the script uses the verified, narrower version (9 lost, none to an enemy tank).
+
+## Short 5 (v2) — USS Gerald R. Ford
+**File:** `army-short-5-ford-13-billion-warship-vo.mp4` · **Duration:** 32.4s · 82 words
+**Final narration script (verbatim):**
+> This is the most expensive warship ever built: thirteen billion dollars of floating steel. USS Gerald R. Ford stretches over eleven hundred feet, longer than three football fields, and displaces about one hundred thousand tons. For the first time on any carrier, her catapults are electromagnetic, not steam. Automation lets her sail with about six hundred fewer crew than the carriers that came before her. She carries over seventy-five aircraft into any ocean on Earth: the largest warship that has ever sailed.
+
+**Verified claims:** ~$13.3B construction cost / most expensive warship ever (GAO reporting); 1,106 ft length (longer than three football fields), ~100,000 tons, largest warship ever built (CRS/U.S. Navy); first carrier with electromagnetic catapults replacing steam (EMALS — the acronym itself is not spoken, because the TTS garbles it; the fact is stated in words); ~600 fewer ship's crew than Nimitz class thanks to automation (CRS/Navy figures); 75+ aircraft (U.S. Navy).
+
+**Claims dropped or changed during verification (all Shorts):**
+- "Never destroyed by enemy fire" (Abrams) — not used; replaced with the verified Desert Storm record above.
+- The spoken acronym "EMALS" — dropped from narration (TTS/ASR mangles it); fact kept as "electromagnetic catapults."
+- "President John F. Kennedy" → "President Kennedy" (Short 3) — clarity fix from the ASR check; same fact.
+- The "first flown 2006 / Harrier roots" angle considered for Short 2 was left out; the verified program-cost beat (> $2 trillion lifetime, GAO) is used instead.
